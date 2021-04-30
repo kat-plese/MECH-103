@@ -15,7 +15,7 @@ Algorithms created in MECH 103: Introduction to Mechanical Engineering, CSU, Fal
 
 ### [Musical Buttons](https://github.com/katie-plese/MECH-103/tree/main/Musical%20Buttons)
 <dl>
-<dd>MATLAB script designed to (something).</dd>
+<dd>MATLAB script designed to respond with light/sound when corresponding green, blue, yellow, and red buttons are pressed.</dd>
 </dl>
 
 ### [Ultrasonic Distance](https://github.com/katie-plese/MECH-103/tree/main/Ultrasonic%20Distance)

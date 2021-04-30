@@ -1,9 +1,11 @@
 % File Name: musical_buttons
-% Description: MATLAB script designed to (something).
+% Description: MATLAB script designed to respond with light/sound when corresponding green, blue, yellow, and red buttons are pressed.
 % Date of Last Modification: 4 November 2020
 
+% MACHEN SIE SAUBER
 clear all; close all; clc;
 
+% CREATE ARDUINO OBJECT
 musicalArduino = arduino('COM3','Uno');
 
 green_button_pin = 'D13';
@@ -19,10 +21,12 @@ yellow_light = 'D04';
 MUSIC_PIN = 'D11';
 configurePin(musicalArduino, MUSIC_PIN, 'PWM');
 
-frequency = 4; % flashes per second
+% LIGHT FLASHES PER SECOND
+frequency = 4;
 
 condition = 1;
 
+% INFITITE LOOP
 while(condition == 1)
     
     green_button_state = readDigitalPin(musicalArduino, green_button_pin);
@@ -30,8 +34,9 @@ while(condition == 1)
     red_button_state = readDigitalPin(musicalArduino, red_button_pin);
     yellow_button_state = readDigitalPin(musicalArduino, yellow_button_pin);
     
+    % GREEN BUTTON PRESSED?
     if green_button_state == 1
-        
+    
         % MUSIC
         num = 0;
         while num < 500
@@ -49,6 +54,7 @@ while(condition == 1)
         
         % MUSIC AND LIGHTS ON UNTIL OFF
         while(green_button_state == 1)
+        
             % MUSIC
             num = 0;
             while num < 500
@@ -64,6 +70,7 @@ while(condition == 1)
             end
         end
         
+    % BLUE BUTTON PRESSED?
     elseif blue_button_state == 1
         
         % MUSIC
@@ -106,6 +113,7 @@ while(condition == 1)
             end
         end
 
+    % RED BUTTON PRESSED?
     elseif red_button_state == 1
 
         % MUSIC
@@ -139,7 +147,8 @@ while(condition == 1)
                 writeDigitalPin(musicalArduino, red_light, 0);
             end
         end
-            
+        
+    % YELLOW BUTTON PRESSED?        
     elseif yellow_button_state == 1
         
         % MUSIC
@@ -153,7 +162,7 @@ while(condition == 1)
             num = num + 25;
         end
         
-        % LIGHTS -- SOMETHING WACK
+        % LIGHTS
         for index = 1:5
             for green = 1:5
                 writeDigitalPin(musicalArduino, green_light, 1);
@@ -175,6 +184,4 @@ while(condition == 1)
         
     end
     pause(0.25);
-    
-    % condition = 0;
 end

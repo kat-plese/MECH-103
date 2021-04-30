@@ -8,7 +8,7 @@ Algorithms created in MECH 103: Introduction to Mechanical Engineering, CSU, Fal
 <dd>MATLAB script designed to (something).</dd>
 </dl>
 
-### [Force Sensitive Resistor](https://github.com/katie-plese/MECH-103/tree/main/Ultrasonic%20Distance)
+### [Force Sensitive Resistor](https://github.com/katie-plese/MECH-103/tree/main/Force%20Sensitive%20Resistor)
 <dl>
 <dd>MATLAB script designed to (something).</dd>
 </dl>

@@ -3,7 +3,7 @@ Algorithms created in MECH 103: Introduction to Mechanical Engineering, CSU, Fal
 
 ***
 
-### [Ultrasonic Distance](https://github.com/katie-plese/MECH-105/tree/main/False%20Position)
+### [Ultrasonic Distance](https://github.com/katie-plese/MECH-103/tree/main/Ultrasonic%20Distance)
 <dl>
 <dd>MATLAB function to estimate the root of a function using the False Position Method.</dd>
 </dl>

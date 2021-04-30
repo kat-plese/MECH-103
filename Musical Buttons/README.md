@@ -3,8 +3,8 @@ MATLAB script designed to respond with light/sound when corresponding green, blu
 
 ### Materials:
 - Arduino Uno
-- 4 Pushbuttons (Green, Blue, Yellow, Red)
 - Piezo Speaker
+- 4 Pushbuttons (Green, Blue, Yellow, Red)
 - 4 LEDS (Green, Blue, Yellow, Red)
 - 5 resistors
 

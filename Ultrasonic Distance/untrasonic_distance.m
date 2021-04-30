@@ -1,5 +1,5 @@
 % File Name: ultrasonic_distance
-% Description: 
+% Description: MATLAB script designed to utilize an ultrasonic sensor to detect distances through SONAR.
 % Date of Last Modification: 28 October 2020
 
 % MACHEN SIE SAUBER

@@ -13,7 +13,7 @@ Algorithms created in MECH 103: Introduction to Mechanical Engineering, CSU, Fal
 <dd>MATLAB script designed to (something).</dd>
 </dl>
 
-### [Musical Buttons](https://github.com/katie-plese/MECH-103/tree/main/Ultrasonic%20Distance)
+### [Musical Buttons](https://github.com/katie-plese/MECH-103/tree/main/Musical%20Buttons)
 <dl>
 <dd>MATLAB script designed to (something).</dd>
 </dl>

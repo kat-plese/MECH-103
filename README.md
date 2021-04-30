@@ -3,7 +3,7 @@ Algorithms created in MECH 103: Introduction to Mechanical Engineering, CSU, Fal
 
 ***
 
-### [Ambient Temperature](https://github.com/katie-plese/MECH-103/tree/main/Ultrasonic%20Distance)
+### [Ambient Temperature](https://github.com/katie-plese/MECH-103/tree/main/Ambient%20Temperature)
 <dl>
 <dd>MATLAB script designed to (something).</dd>
 </dl>

@@ -3,6 +3,21 @@ Algorithms created in MECH 103: Introduction to Mechanical Engineering, CSU, Fal
 
 ***
 
+### [Ambient Temperature](https://github.com/katie-plese/MECH-103/tree/main/Ultrasonic%20Distance)
+<dl>
+<dd>MATLAB script designed to (something).</dd>
+</dl>
+
+### [Force Sensitive Resistor](https://github.com/katie-plese/MECH-103/tree/main/Ultrasonic%20Distance)
+<dl>
+<dd>MATLAB script designed to (something).</dd>
+</dl>
+
+### [Musical Buttons](https://github.com/katie-plese/MECH-103/tree/main/Ultrasonic%20Distance)
+<dl>
+<dd>MATLAB script designed to (something).</dd>
+</dl>
+
 ### [Ultrasonic Distance](https://github.com/katie-plese/MECH-103/tree/main/Ultrasonic%20Distance)
 <dl>
 <dd>MATLAB script designed to utilize an ultrasonic sensor to detect distances through SONAR.</dd>

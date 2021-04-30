@@ -1,7 +1,6 @@
-% File Name: Musical Buttons
-% Creator: Katie Plese
-% Date: 30 October 2020
-% Last Modified: 4 November 2020
+% File Name: musical_buttons
+% Description: MATLAB script designed to (something).
+% Date of Last Modification: 4 November 2020
 
 clear all; close all; clc;
 

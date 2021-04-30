@@ -15,5 +15,5 @@ MATLAB script designed to utilize an ultrasonic sensor to detect distances throu
 - If object is sensed between 1 and 0.75 meters away, 1 red LED is lit.
 - If object is sensed between 0.75 and 0 meters away 2 red LEDs are lit. 
 
-### Ultrasonic Sensor & Piezo Speaker Diagram:
+### Diagram:
 ![alt text](https://github.com/katie-plese/MECH-103/blob/main/Ultrasonic%20Distance/ultrasonic_distance.jpg "Picture")

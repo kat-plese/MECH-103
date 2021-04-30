@@ -8,4 +8,4 @@ MATLAB script designed to utilize an ultrasonic sensor to detect distances throu
 - 5 LEDS (2 Red, 1 Yellow, 2 Green)
 - 5 resistors
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/katie-plese/MECH-103/blob/main/Ultrasonic%20Distance/ultrasonic_distance.jpg "Logo Title Text 1")

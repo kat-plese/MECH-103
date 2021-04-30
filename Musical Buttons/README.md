@@ -12,4 +12,4 @@ MATLAB script designed to respond with light/sound when corresponding green, blu
 - (stuff)
 
 ### Diagram:
-![alt text](https://github.com/katie-plese/MECH-103/blob/main/Ultrasonic%20Distance/ultrasonic_distance.jpg "Picture")
+![alt text](https://github.com/katie-plese/MECH-103/blob/main/Musical%20Buttons/musical_buttons.jpg "Picture")

@@ -14,4 +14,4 @@ MATLAB script designed to utilize a force sensor to detect distances through ele
 - If the force is greater than 2000, four LEDs are lit.
 
 ### Diagram:
-![alt text](https://github.com/katie-plese/MECH-103/blob/main/Force%20Sensitive%20Resistor/force_sensitive_resistor.jpg "Picture")
+![alt text](https://github.com/katie-plese "Picture")

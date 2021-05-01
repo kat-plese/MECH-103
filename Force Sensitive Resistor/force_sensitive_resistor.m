@@ -1,35 +1,27 @@
-% File Name: Force Sensitive Resistor
-% Creator: Katie Plese
-% Date: 20 October 2020
+% File Name: force_sensitive_resistor
+% Description: MATLAB script designed to utilize a force sensor to detect distances through electrical resistance.
+% Date of Last Modification: 20 October 2020
 
+% MACHEN SIE SAUBER
 clear;
 
+% CREATE NEW ARDUINO OBJECT
 forceArduino = arduino('COM3','Uno');
 FSR_PIN = 'A0';
 
-% Calibrate force sensor based on supplied voltage and the resistance.
-% If you have a miltimeter available, measure the actual voltage output of
-% the 5V power port on the Arduino. Nest meaesure the resistance across the
-% resistor. They should be within 10% of the nominal value.
+% VOLTAGE SUPPLIED BY ARDUINO
+VCC = 5; 
 
-% If you don't have a multimeter, just use the nominal value.
+% RESISTOR
+R_DIV = 9800;
 
-% Vout = Rm*V/(Rm+Rfsr)
-% Vout(Rm+Rfsr) = Rm*V
-% Vout*Rm + Vout*Rfsr = Rm*V
-% Vout*Rfsr = Rm*V - Rm*Vout
-% Rfsr = (Rm*(V-Vout))/Vout
-
-VCC = 5;  % Voltage supplied by Arduino
-R_DIV = 9800; % Resistor
-
-% Wait between readings
+% PAUSE BETWEEN READINGS
 waitTime = 2;
 
-% Weight of Reference Object -- Cell Phone
+% WEIGHT OF REFERENCE OBJECT -- CELL PHONE
 ref_object = 0;
 
-% Weight of Bottle
+% WEIGHT OF OBJECT -- BOTTLE
 W_0 = 100;
 
 while(1)
@@ -40,10 +32,10 @@ while(1)
         fsrResistance = (R_DIV*(VCC-fsrVoltage))/fsrVoltage;
         fprintf("Reistance is %f\n",fsrResistance);
 
-        % Compute Conductance -- Inverse the Resistance of FSR
+        % COMPUTE CONDUCTANCE -- INVERSE RESISTANCE OF FSR
         fsrConductance = 1/fsrResistance;
 
-        % Convert from Conductance to Force
+        % CONVERT FROM CONDUCTANCE TO FORCE
         if fsrResistance <= 600
             force = (fsrConductance-7.4E-4)/3.2639E-7;
         else
@@ -92,26 +84,25 @@ while(1)
     end
 end
 
-% 0.99669 g = 1 cc
-% 29.57 cc = 1 fluid ounce
 fl_oz = 29.472;
 
-% Theoretical Values
-V_1 = (250/fl_oz); % Volume of H20 required to turn on 1 light (>250)
+% THEORETICAL VALUES
+% VOLUME OF H2O REQUIRED TO TURN ON 1 LIGHT (>250)
+V_1 = (250/fl_oz);
+% VOLUME OF H2O REQUIRED TO TURN ON 2 LIGHTS (>500)
+V_2 = (500/fl_oz);
+% VOLUME OF H2O REQUIRED TO TURN ON 3 LIGHTS (>1000)
+V_3 = (1000/fl_oz);
+% VOLUME OF H2O REQUIRED TO TURN ON 4 LIGHTS (>2000)
+V_4 = (2000/fl_oz);
 
-V_2 = (500/fl_oz); % Volume of H20 required to turn on 2 lights (>500)
-
-V_3 = (1000/fl_oz); % Volume of H20 required to turn on 3 lights (>1000)
-
-V_4 = (2000/fl_oz); % Volume of H20 required to turn on 4 lights (>2000)
-
-% Experimental Values
+% EXPERIMENTAL VALUES
 V_1_ex = 10;
 V_2_ex = 20;
 V_3_ex = 35;
 V_4_ex = 70;
 
-% Percent Error=ABS[(Theoretical-Experimental)/Theoretical]*100;
+% TRUE PERCENT RELATIVE ERROR Percent
 V_1_error = abs((V_1 - V_1_ex)/V_1)*100;
 V_2_error = abs((V_2 - V_2_ex)/V_1)*100;
 V_3_error = abs((V_3 - V_3_ex)/V_1)*100;

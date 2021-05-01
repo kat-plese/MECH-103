@@ -9,7 +9,7 @@ MATLAB script designed to utilize an ultrasonic sensor to detect distances throu
 - 5 resistors
 
 ### Specifications:
-- If object is sensed further than 2 meters away, the both green LEDs are lit.
+- If object is sensed further than 2 meters away, both green LEDs are lit.
 - If object is sensed between 2 and 1 meters away, only 1 green LED is lit.
 - If object is sensed between 1.25 and 0.75 meter away the yellow LED is lit.
 - If object is sensed between 1 and 0.75 meters away, 1 red LED is lit.

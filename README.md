@@ -5,7 +5,7 @@ Algorithms created in MECH 103: Introduction to Mechanical Engineering, CSU, Fal
 
 ### [Ambient Temperature](https://github.com/katie-plese/MECH-103/tree/main/Ambient%20Temperature)
 <dl>
-<dd>MATLAB script designed to (something).</dd>
+<dd>MATLAB script designed to utilize a temperature sensor to turn on an LED if abmient is greater than a predetermined threshold.</dd>
 </dl>
 
 ### [Force Sensitive Resistor](https://github.com/katie-plese/MECH-103/tree/main/Force%20Sensitive%20Resistor)

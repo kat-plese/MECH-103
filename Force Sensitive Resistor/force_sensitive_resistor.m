@@ -5,7 +5,7 @@
 % MACHEN SIE SAUBER
 clear;
 
-% CREATE NEW ARDUINO OBJECT
+% CREATE ARDUINO OBJECT
 forceArduino = arduino('COM3','Uno');
 FSR_PIN = 'A0';
 

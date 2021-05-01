@@ -5,7 +5,7 @@ MATLAB script designed to utilize a force sensor to detect distances through ele
 - Arduino Uno
 - Force Sensitive Resistor 
 - 4 LEDS
-- 4 resistors
+- 5 resistors
 
 ### Specifications:
 - Depending on the force placed on the FSR, LED lights will turn on:

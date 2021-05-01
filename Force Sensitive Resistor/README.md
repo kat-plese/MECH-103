@@ -8,14 +8,15 @@ MATLAB script designed to utilize a force sensor to detect distances through ele
 - 4 resistors
 
 ### Specifications:
-- When a button is pressed:
+- Depending on the force placed on the FSR, LED lights will turn on:
 
-    (a) Play a noise from the speaker 
+    (a) One light = 250+W_0 < force <= 500+W_0
  
-    (b) Flash the LED 5 times at a frequency of 4 flashes per second
+    (b) Two lights =  500+W_0 < force <= 1000+W_0
   
-    (c) Keep the LED lit until the button is released
-- Each colored button should make a different sound and correspond to the color of LED that lights up.
+    (c) Three lights =  1000+W_0 < force <= 2000+W_0
+    
+    (d) Four lights =  Force > 2000
 
 ### Diagram:
-![alt text](https://github.com/katie-plese/MECH-103/blob/main/Musical%20Buttons/musical_buttons.jpg "Picture")
+![alt text](https://github.com/katie-plese/MECH-103/blob/main/Force%20Sensitive%20Resistor/force_sensitive_resistor.jpg "Picture")

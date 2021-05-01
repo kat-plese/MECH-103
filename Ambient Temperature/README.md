@@ -13,4 +13,4 @@ MATLAB script designed to utilize a temperature sensor to turn on an LED if abmi
 - If the ambient temperature falls below the predetermined threshold, turn off the LED. 
 
 ### Diagram:
-![alt text](https://github.com/katie-plese/MECH-103/blob/main/Force%20Sensitive%20Resistor/force_sensitive_resistor.jpg "Picture")
+![alt text](https://github.com/katie-plese/MECH-103/blob/main/Ambient%20Temperature/ambient_temperature.jpg "Picture")

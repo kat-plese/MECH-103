@@ -1,4 +1,6 @@
-% File:
+% File Name: ambient_temperature
+% Description: MATLAB script designed to utilize a temperature sensor to turn on an LED if abmient is greater than a predetermined threshold.
+% Date of Last Modification: 13 October 2020
 
 % MACHEN SIE SAUBER
 clear

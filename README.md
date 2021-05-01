@@ -10,7 +10,7 @@ Algorithms created in MECH 103: Introduction to Mechanical Engineering, CSU, Fal
 
 ### [Force Sensitive Resistor](https://github.com/katie-plese/MECH-103/tree/main/Force%20Sensitive%20Resistor)
 <dl>
-<dd>MATLAB script designed to (something).</dd>
+<dd>MATLAB script designed to utilize a force sensor to detect distances through electrical resistance.</dd>
 </dl>
 
 ### [Musical Buttons](https://github.com/katie-plese/MECH-103/tree/main/Musical%20Buttons)
